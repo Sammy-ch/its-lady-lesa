@@ -2,10 +2,9 @@
 <slot/>
 <footer>
     <nav>
-        <a href="/"><img src="/icons8-twitter.svg" alt="twitter"></a>
-        <a href="/"><img src="/icons8-instagram.svg" alt="Instagram"></a>
-        <a href="/"><img src="/icons8-facebook.svg" alt="Facebook"></a>
-        <a href="/"><img src="/icons8-linkedin.svg" alt="linkedIn"></a>
+        <a href="https://twitter.com/MarinaSyvine?s=20"><img src="/icons8-twitter.svg" alt="twitter"></a>
+        <a href="https://www.instagram.com/marina_syvine/"><img src="/icons8-instagram.svg" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/elsa-marina-syvine-92ba9b245/"><img src="/icons8-linkedin.svg" alt="linkedIn"></a>
     </nav>
     <span>© 2023 Empowering Women Through Fashion</span>
 </footer>

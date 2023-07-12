@@ -1,16 +1,18 @@
 <script>
+export let data;
+const links = data.props.data;
 
 </script>
+
 <body>
-    
     <section class="header">
         <img src="/lesa_logo.jpg" alt="Lesa_logo">
         <div class="navigation">
             <nav>
-                <a href="/">Poems</a>
-                <img src="" alt="">
-                <a href="/">Stories</a>
-    
+                {#each links as item}
+                <a href="/categories/{item.title}">{item.title}</a>
+                {/each}
+
             </nav>
             <div class="heading" style="color: rgb(94,48,35); ">
                 Empowerment
