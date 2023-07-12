@@ -1,12 +1,4 @@
-import { createClient } from "@sanity/client";
-
-const client = createClient({
-  projectId: "8rbqk8mm",
-  dataset: "production",
-  useCdn: true, // set to `false` to bypass the edge cache
-  apiVersion: '2023-05-03', // use current date (YYYY-MM-DD) to target the latest API version
-}) 
-
+import { client } from "$lib/client";
 
 export async function load({ params }) {
     const { slug } = params
