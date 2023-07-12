@@ -1,4 +1,4 @@
-import { client } from "$lib/client";
+import { client } from "/src/client";
 
 export async function load({ params }) {
     const { slug } = params

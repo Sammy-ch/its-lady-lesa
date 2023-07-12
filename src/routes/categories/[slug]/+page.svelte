@@ -1,5 +1,5 @@
 <script>
-import { urlFor } from '$lib/Client.js';
+import { urlFor } from '/src/client';
 export let data;
 const postTitles = data.dataPosts;
 const titles = data.titles;

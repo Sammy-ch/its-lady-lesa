@@ -1,6 +1,6 @@
 <script>
 export let data;
-import { urlFor } from '$lib/Client.js';
+import { urlFor } from '/src/client';
 
 </script>
 
